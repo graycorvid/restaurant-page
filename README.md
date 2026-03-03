@@ -2,7 +2,7 @@
 
 This project was built as part of **The Odin Project** curriculum.
 
-It is a simple restaurant website created using **JavaScript modules** and bundled with **Webpack**. The main goal of this project was to practice:
+It is a simple bubble tea [website](https://bubble-tea-page.netlify.app/) created using **JavaScript modules** and bundled with **Webpack**. The main goal of this project was to practice:
 
 - Setting up a project with Webpack
 - Organizing code into separate modules
