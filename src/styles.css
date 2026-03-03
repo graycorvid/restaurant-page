@@ -1,12 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
   width: 100vw;
+  min-height: 100dvh;
   display: grid;
-  grid-template-rows: 15% 85%;
+  grid-template-rows: 15vh 1fr;
   font-family: "Delius", sans-serif;
-  overflow: hidden;
 }
 header {
   display: grid;
@@ -30,8 +29,9 @@ button:hover {
 }
 #content {
   background-image: url("./img/boba2.jpg");
-  background-position: center;
-  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 main {
   display: flex;
@@ -46,24 +46,48 @@ main > * {
   border: 2px solid rgba(255, 68, 0, 0.721);
   border-radius: 10px;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "Sour Gummy", sans-serif;
+}
 h1 {
   margin: 0.6em 0;
-  font-family: "Sour Gummy", sans-serif;
-  font-size: 4em;
+  font-size: 3.6em;
+  color: rgb(254, 254, 254);
   text-transform: uppercase;
+  text-shadow: 0px 0px 10px rgb(255, 101, 11);
   background: none;
   border: none;
   border-radius: 10px;
-  color: rgb(255, 101, 11);
-  background-color: rgba(0, 0, 0, 0.806);
+}
+h2 {
+  margin: 0;
+  font-size: 1.8em;
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  text-shadow: 0px 0px 8px rgb(255, 101, 11);
+  background: none;
+  border: none;
+  border-radius: 10px;
 }
 h3 {
   margin-top: 2em;
+  font-size: 1.4em;
+  color: rgb(254, 254, 254);
   text-transform: uppercase;
-  color: rgb(255, 101, 11);
-  background-color: rgba(0, 0, 0, 0.806);
+  text-shadow: 0px 0px 5px rgb(255, 101, 11);
+  background: none;
   border: none;
 }
 p {
   font-size: 1.2em;
+}
+ul {
+  margin-bottom: 3em;
+  list-style: none;
+}
+li {
+  font-size: 2em;
 }
