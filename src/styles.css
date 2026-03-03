@@ -32,6 +32,7 @@ button:hover {
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 main {
   display: flex;
@@ -90,4 +91,27 @@ ul {
 }
 li {
   font-size: 2em;
+}
+footer {
+  height: 5vh;
+}
+a {
+  padding: 10px;
+  color: chocolate;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(239, 143, 75);
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+.contact {
+  margin-top: 2em;
+  width: 20vw;
+  text-align: center;
 }
