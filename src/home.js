@@ -1,5 +1,6 @@
 function loadPage() {
   const content = document.querySelector("#content");
+  content.innerHTML = "";
   const main = document.createElement("main");
   //h1
   const h1 = document.createElement("h1");
